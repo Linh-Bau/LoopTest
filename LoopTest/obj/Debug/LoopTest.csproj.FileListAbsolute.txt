@@ -1,0 +1,17 @@
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\LoopTest.exe.config
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\LoopTest.exe
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\LoopTest.pdb
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\obj\Debug\LoopTest.csproj.AssemblyReference.cache
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\obj\Debug\LoopTest.csproj.SuggestedBindingRedirects.cache
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\obj\Debug\LoopTest.Form1.resources
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\obj\Debug\LoopTest.Properties.Resources.resources
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\obj\Debug\LoopTest.csproj.GenerateResource.cache
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\obj\Debug\LoopTest.csproj.CoreCompileInputs.cache
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\obj\Debug\LoopTest.exe
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\obj\Debug\LoopTest.pdb
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\AutoItX3.dll
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\AutoItX3_x64.dll
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\AutoItX3.Assembly.dll
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\AutoItX3.Assembly.xml
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\obj\Debug\LoopTest.csproj.CopyComplete
+D:\Brian\CODE\MyCode\LoopTest\LoopTest\obj\Debug\LoopTest.DebugForm.resources

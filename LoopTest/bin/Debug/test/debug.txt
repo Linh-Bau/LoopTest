@@ -1,0 +1,58 @@
+2022-07-06 10:20:49 - Read Global Variable: Station: DEBUTBUTTON: 0
+2022-07-06 10:20:49 - Read Global Variable: Station: STATIONNAME: LoopTest
+2022-07-06 10:20:49 - Read Global Variable: Station: STATIONALL: LoopTest
+2022-07-06 10:20:49 - Read Global Variable: Station: FIXTURENAME: MBLT-8020
+2022-07-06 10:20:49 - Read Global Variable: Station: STATIONNO: MBLT-8020
+2022-07-06 10:20:49 - Read Global Variable: Station: MescheckrouteIP: 10.90.108.169
+2022-07-06 10:20:49 - Read Global Variable: Station: MESIP: 10.90.108.172
+2022-07-06 10:20:49 - Read Global Variable: Station: MESPORT: 8088
+2022-07-06 10:20:49 - Read Global Variable: Station: LOGFOLDER: D:\TestLog
+2022-07-06 10:20:49 - Read Global Variable: Station: MaxSizeRollBackups: 10
+2022-07-06 10:20:49 - Read Global Variable: Station: LOGSERVER: 10.90.104.85
+2022-07-06 10:20:49 - Read Global Variable: Station: LOGSERVERUser: eero
+2022-07-06 10:20:49 - Read Global Variable: Station: LOGSERVERPwd: eero
+2022-07-06 10:20:49 - Read Global Variable: Station: PopFixture: false
+2022-07-06 10:20:49 - Read Global Variable: Station: FIXCOM: COM1
+2022-07-06 10:20:49 - Read Global Variable: Station: FIXBaudRate: 115200
+2022-07-06 10:20:49 - Read Global Variable: Station: GPIBADDRESS: 0
+2022-07-06 10:20:49 - Read Global Variable: Station: TestCasePath: testcase_Hornbill.xlsx
+2022-07-06 10:20:49 - Read Global Variable: Station: PySCRIPT: data_api_client.py
+2022-07-06 10:20:49 - Read Global Variable: Station: PROMPT: root@OpenWrt:/#
+2022-07-06 10:20:49 - Read Global Variable: Station: FAIL_CONTINUE: 0
+2022-07-06 10:20:49 - Read Global Variable: DUT: DUTIP: 192.168.1.101
+2022-07-06 10:20:49 - Read Global Variable: DUT: SSH_PORT: 
+2022-07-06 10:20:49 - Read Global Variable: DUT: SSH_USERNAME: 
+2022-07-06 10:20:49 - Read Global Variable: DUT: SSH_PASSWORD: 
+2022-07-06 10:20:49 - Read Global Variable: DUT: DUTCOM: COM7
+2022-07-06 10:20:49 - Read Global Variable: DUT: DUTBaudRate: 115200
+2022-07-06 10:20:49 - Read Global Variable: DUT: POE_PORT: 
+2022-07-06 10:20:49 - Read Global Variable: DUT: GoldenSN: GGC21D0221420058,GGC21D0221460039,GGC21D0221470085,GGC21D0221530033,GGC21D0221560168
+2022-07-06 10:20:49 - Read Global Variable: Product: ProMode: Hornbill
+2022-07-06 10:20:49 - Read Global Variable: Product: ProMode1: Gateway
+2022-07-06 10:20:49 - Read Global Variable: Product: ProMode2: Leaf
+2022-07-06 10:20:49 - Read Global Variable: Product: ProMode3: Hornbill
+2022-07-06 10:20:49 - Read Global Variable: Product: SN_Length: 16
+2022-07-06 10:20:49 - Read Global Variable: Product: SFC_Mode: 
+2022-07-06 10:20:49 - Read Global Variable: Product: IsSetAgingMode: 
+2022-07-06 10:20:49 - Read Global Variable: Product: IsSetQAMode: 
+2022-07-06 10:20:49 - Read Global Variable: Product: SWVersion: 
+2022-07-06 10:20:49 - Read Global Variable: Product: BTServerID: 
+2022-07-06 10:20:49 - Read Global Variable: Product: BigTaoLogPath: 
+2022-07-06 10:20:49 - Read Global Variable: Product: UploadQCNFilePath: 
+2022-07-06 10:20:49 - Read Global Variable: Product: SGN5171BIP: 
+2022-07-06 10:20:49 - Read Global Variable: Product: RFSwitch1P2TIP: 
+2022-07-06 10:20:49 - Read Global Variable: Product: RFSwitch1P8TIP: 
+2022-07-06 10:20:49 - Read Global Variable: Product: DUTBPowermeterNRP8SSNaudRate: 
+2022-07-06 10:20:49 - Read Global Variable: Product: QSDKVER: HB.DVT.11.4_CSU2.V023
+2022-07-06 10:20:49 - Read Global Variable: Product: JSON: 1
+2022-07-06 10:20:49 - Read Global Variable: Product: OnlineLimit: true
+2022-07-06 10:20:49 - Read Global Variable: Product: ClearCal: 
+2022-07-06 10:20:49 - Read Global Variable: CountNum: CONTINUE_FAIL_LIMIT: 10
+2022-07-06 10:20:49 - Read Global Variable: CountNum: ContinueFailNum: 0
+2022-07-06 10:20:49 - Read Global Variable: CountNum: Total_Fail_Num: 3
+2022-07-06 10:20:49 - Read Global Variable: CountNum: Total_Pass_Num: 0
+2022-07-06 10:20:49 - Read Global Variable: CountNum: Total_Abort_Num: 0
+2022-07-06 10:20:49 - Read Global Variable: TMORFTest: CalTreeName: 
+2022-07-06 10:20:49 - Read Global Variable: TMORFTest: CalTreeName: 
+2022-07-06 10:20:49 -   txtSHA:100779915F80C91288083114239B36BF9034ABF164DFEAE6B053BC0DED7030F4
+2022-07-06 10:20:49 - jsonSHA:100779915F80C91288083114239B36BF9034ABF164DFEAE6B053BC0DED7030F4
