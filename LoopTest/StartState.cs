@@ -71,7 +71,7 @@ namespace LoopTest
                         }
                         else
                         {
-                            timeout--;
+                            timeout = timeout - 1000;
                         }
                     }
                     return false;
@@ -83,13 +83,13 @@ namespace LoopTest
                 }
             }
         }
-        protected bool SentCloseFixtureCommand()
+        protected bool SentFixtureOutCommand()
         {
-            string command = Config.getKeyValue("end_command");
-            string waitfot = Config.getKeyValue("wait_end_command_respond");
-            int waitaftersuccess = int.Parse(Config.getKeyValue("wait_fixture_out"));
-            int timeout = int.Parse(Config.getKeyValue("command_timeout")) / 1000;
-            if (!SentAndWaitCommand(command, waitfot, timeout))
+            string command = Config.Get_end_command;
+            string waitfor = Config.Get_wait_end_command_respond;
+            int waitaftersuccess = Config.Get_wait_fixture_out;
+            int timeout = Config.Get_command_timeout;
+            if (!SentAndWaitCommand(command, waitfor, timeout))
                 return false;
             else
                 sleep(waitaftersuccess);
@@ -99,10 +99,10 @@ namespace LoopTest
 
         protected bool SentStartCommand()
         {
-            string commad = Config.getKeyValue("start_test_command");
-            string waitfor = Config.getKeyValue("wait_start_command_respond");
-            int waitaftersuccess = int.Parse(Config.getKeyValue("wait_close_fixture"));
-            int timeout = int.Parse(Config.getKeyValue("command_timeout")) / 1000;
+            string commad = Config.Get_start_test_command;
+            string waitfor = Config.Get_wait_start_command_respond; 
+            int waitaftersuccess = Config.Get_wait_close_fixture;
+            int timeout = Config.Get_command_timeout;
             if (!SentAndWaitCommand(commad, waitfor, timeout))
                 return false;
             else
@@ -111,10 +111,10 @@ namespace LoopTest
         }
         protected bool SentUsbCommand()
         {
-            string commad = Config.getKeyValue("usb_power_command");
-            string waitfor = Config.getKeyValue("wait_end_command_respond");
-            int waitaftersuccess = int.Parse(Config.getKeyValue("wait_open_usb"));
-            int timeout = int.Parse(Config.getKeyValue("command_timeout")) / 1000;
+            string commad = Config.Get_usb_power_command;
+            string waitfor = Config.Get_wait_usb_command_respond;
+            int waitaftersuccess = Config.Get_wait_open_usb;
+            int timeout = Config.Get_command_timeout / 1000;
             if (!SentAndWaitCommand(commad, waitfor, timeout))
                 return false;
             else
@@ -173,7 +173,7 @@ namespace LoopTest
         {
             //close all test program of instance
             Form1.UpdateForm_ConfigPanel(Form1.Config_Panel_Mode.UNLOCK);
-            string exe_name = Config.getKeyValue("test_program_name");
+            string exe_name = Config.Get_test_program_name;
             var exe_running = Process.GetProcessesByName(exe_name);
             foreach (var exe in exe_running)
             {
@@ -276,7 +276,7 @@ namespace LoopTest
                 sleep(2000);
             }
 
-            if (!SentCloseFixtureCommand())
+            if (!SentFixtureOutCommand())
             {
                 MessageBox.Show("Fail when sent command to fixture!");
                 Run();
@@ -292,10 +292,10 @@ namespace LoopTest
                 Run();
             }
             Form1.WriteDebugLog("Open test program");
-            string test_program_path = Config.getKeyValue("test_program_path");
+            string test_program_path = Config.Get_test_program_name;
             Process.Start(System.IO.Directory.GetCurrentDirectory() + "\\cmd.bat");
             sleep(3000);
-            testProcess = findProcess(Config.getKeyValue("test_program_name"));
+            testProcess = findProcess(Config.Get_test_program_name);
 
             //post the sn to textbox
             ElementTree elementTree = Form1.GetAllElement(testProcess.MainWindowHandle);
@@ -384,7 +384,7 @@ namespace LoopTest
 
         public override void Run()
         {
-            SentCloseFixtureCommand();
+            SentFixtureOutCommand();
         }
 
         public override void UpdateForm()
@@ -403,21 +403,5 @@ namespace LoopTest
             sleep(100);
             return true;
         }
-    }
-
-    public static class Config
-    {
-        static string path = System.IO.Directory.GetCurrentDirectory() + "\\config.ini";
-
-        static string data = System.IO.File.ReadAllText(path);
-        public static string getKeyValue(string key)
-        {
-            //like <key=value>
-            string pattern = string.Format("<(?<key>.*?{0}.*?)=(?<value>.*?)>", key);
-            var result = Regex.Match(data, pattern);
-            string key_value = result.Groups["value"].Value.Trim();
-            return key_value;
-        }
-
     }
 }

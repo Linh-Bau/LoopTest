@@ -32,8 +32,12 @@ namespace LoopTest
         {
             string version= Assembly.GetExecutingAssembly().GetName().Version.ToString();
             string build_date = System.IO.File.GetLastWriteTime(Assembly.GetExecutingAssembly().Location).ToString();
-            this.Text = String.Format("{0} V{1} Buil:{2}", this.Text, version, build_date);
+            this.Text = String.Format("{0} V{1}", this.Text, version);
+            this.toolStripStatusLabel1.Text = String.Format("Build date: {0}", build_date);
         }
+
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
             InitForm();
@@ -41,7 +45,7 @@ namespace LoopTest
             tester = new WaitStartButtonClick();
             LoopTestThread = new Thread(loopTestThread);
             LoopTestThread.Start();
-            if(Config.getKeyValue("debug").ToUpper()=="TRUE")
+            if(Config.IsDebugMode)
             {
                 Form1.debugForm = new DebugForm();
                 debugForm.Show();
@@ -64,16 +68,6 @@ namespace LoopTest
             }
             
         }
-        private void Form1_Shown(object sender, EventArgs e)
-        {
-            
-        }
-
-
-        private void BTN_STOP_Click(object sender, EventArgs e)
-        { 
-        }
-
         private void loopTestThread()
         {
 
@@ -90,13 +84,6 @@ namespace LoopTest
 
         }
 
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)
-        {
-            if(e.KeyCode==Keys.Enter)
-            {
-                BTN_START_Click(sender, e);
-            }
-        }
 
         DateTime test_time = new DateTime();
         private void timer1_Tick(object sender, EventArgs e)
@@ -107,9 +94,9 @@ namespace LoopTest
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            //richTextBox1.SelectionStart = richTextBox1.Text.Length;
-            //// scroll it automatically
-            //richTextBox1.ScrollToCaret();
+            richTextBox1.SelectionStart = richTextBox1.Text.Length;
+            // scroll it automatically
+            richTextBox1.ScrollToCaret();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -122,36 +109,6 @@ namespace LoopTest
             {
                
             }
-        }
-  
-        private void button1_Click(object sender, EventArgs even)
-        {
-            var testProcess = findProcess(Config.getKeyValue("test_program_name"));
-            ElementTree elementTree = Form1.GetAllElement(testProcess.MainWindowHandle);
-            elementTree.ShowAllCaption(elementTree);
-            var e= elementTree.findElementByClassContains("ErrorCode", elementTree);
-            //Form1.WriteDebugLog(String.Format("{0},{1},{2}", e.GetHwnd.ToString("X8"), e.GetCaption, e.GetClassName));
-        }
-        private Process findProcess(string pname)
-        {
-            var p = Process.GetProcessesByName(pname);
-            if (p == null) throw new Exception();
-            return p[0];
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
