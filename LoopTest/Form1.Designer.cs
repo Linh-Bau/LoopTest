@@ -71,8 +71,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.panel1.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel20.SuspendLayout();
@@ -95,6 +96,7 @@
             this.panel8.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel22.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -108,7 +110,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(382, 553);
+            this.panel1.Size = new System.Drawing.Size(382, 538);
             this.panel1.TabIndex = 0;
             // 
             // panel9
@@ -118,7 +120,7 @@
             this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel9.Location = new System.Drawing.Point(231, 356);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(151, 133);
+            this.panel9.Size = new System.Drawing.Size(151, 118);
             this.panel9.TabIndex = 5;
             // 
             // panel20
@@ -127,7 +129,7 @@
             this.panel20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel20.Location = new System.Drawing.Point(0, 53);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(151, 80);
+            this.panel20.Size = new System.Drawing.Size(151, 65);
             this.panel20.TabIndex = 1;
             // 
             // lb_Total_Time
@@ -136,7 +138,7 @@
             this.lb_Total_Time.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_Total_Time.Location = new System.Drawing.Point(0, 0);
             this.lb_Total_Time.Name = "lb_Total_Time";
-            this.lb_Total_Time.Size = new System.Drawing.Size(151, 80);
+            this.lb_Total_Time.Size = new System.Drawing.Size(151, 65);
             this.lb_Total_Time.TabIndex = 2;
             this.lb_Total_Time.Text = "0";
             this.lb_Total_Time.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -169,7 +171,7 @@
             this.pnl_status.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnl_status.Location = new System.Drawing.Point(0, 356);
             this.pnl_status.Name = "pnl_status";
-            this.pnl_status.Size = new System.Drawing.Size(231, 133);
+            this.pnl_status.Size = new System.Drawing.Size(231, 118);
             this.pnl_status.TabIndex = 4;
             // 
             // panel12
@@ -179,7 +181,7 @@
             this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel12.Location = new System.Drawing.Point(0, 88);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(231, 45);
+            this.panel12.Size = new System.Drawing.Size(231, 30);
             this.panel12.TabIndex = 2;
             // 
             // panel18
@@ -188,7 +190,7 @@
             this.panel18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel18.Location = new System.Drawing.Point(115, 0);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(116, 45);
+            this.panel18.Size = new System.Drawing.Size(116, 30);
             this.panel18.TabIndex = 2;
             // 
             // lb_Test_Fail
@@ -197,7 +199,7 @@
             this.lb_Test_Fail.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_Test_Fail.Location = new System.Drawing.Point(0, 0);
             this.lb_Test_Fail.Name = "lb_Test_Fail";
-            this.lb_Test_Fail.Size = new System.Drawing.Size(116, 45);
+            this.lb_Test_Fail.Size = new System.Drawing.Size(116, 30);
             this.lb_Test_Fail.TabIndex = 1;
             this.lb_Test_Fail.Text = "0";
             this.lb_Test_Fail.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -208,7 +210,7 @@
             this.panel17.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel17.Location = new System.Drawing.Point(0, 0);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(115, 45);
+            this.panel17.Size = new System.Drawing.Size(115, 30);
             this.panel17.TabIndex = 2;
             // 
             // label8
@@ -217,7 +219,7 @@
             this.label8.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(0, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(115, 45);
+            this.label8.Size = new System.Drawing.Size(115, 30);
             this.label8.TabIndex = 1;
             this.label8.Text = "Fail";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -360,7 +362,7 @@
             this.panel3.Controls.Add(this.panel5);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 489);
+            this.panel3.Location = new System.Drawing.Point(0, 474);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(382, 64);
             this.panel3.TabIndex = 1;
@@ -503,7 +505,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(257, 39);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // label12
@@ -527,24 +528,36 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Config Panel";
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // timer1
             // 
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 538);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(382, 26);
+            this.statusStrip1.TabIndex = 1;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(151, 20);
+            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(382, 553);
+            this.ClientSize = new System.Drawing.Size(382, 564);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.statusStrip1);
             this.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
@@ -577,7 +590,10 @@
             this.panel2.ResumeLayout(false);
             this.panel22.ResumeLayout(false);
             this.panel22.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -619,7 +635,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BTN_START;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Panel panel8;
@@ -627,6 +642,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
     }
 }
 
