@@ -5,6 +5,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Security.Principal;
 using System.Text;
 using System.Threading;
@@ -19,15 +20,23 @@ namespace LoopTest
         {
             InitializeComponent();
         }
+        //########## Variables ############
+        #region
         Thread LoopTestThread;
         RunningState tester;
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        #endregion
+
+        //########## Init Fuction ############
+
+        private void InitForm()
         {
-            
+            string version= Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            string build_date = System.IO.File.GetLastWriteTime(Assembly.GetExecutingAssembly().Location).ToString();
+            this.Text = String.Format("{0} V{1} Buil:{2}", this.Text, version, build_date);
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("please open by adminstrator access!");
+            InitForm();
             currentForm = this;
             tester = new WaitStartButtonClick();
             LoopTestThread = new Thread(loopTestThread);
@@ -131,6 +140,16 @@ namespace LoopTest
         }
 
         private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }
