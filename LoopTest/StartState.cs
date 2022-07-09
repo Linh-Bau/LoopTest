@@ -49,80 +49,6 @@ namespace LoopTest
         protected static RunningState current_state;
         protected static IntPtr Error_label_hwnd = IntPtr.Zero;
 
-        protected bool SentAndWaitCommand(string sentCommand, string WaitFor, int timeout)
-        {
-            Form1.WriteDebugLog(string.Format("sentCommand: {0}, WaitFor: {1}, timeout: {2}", sentCommand, WaitFor, timeout));
-            using (SerialPort port = new SerialPort("COM1", 115200))
-            {
-                try
-                {
-                    string dataReceived = "";
-                    port.Open();
-                    port.WriteLine(sentCommand);
-                    Form1.WriteDebugLog(String.Format("port:{0} send: {1}", port.PortName, sentCommand));
-                    while (timeout > 0)
-                    {
-                        sleep(1000);
-                        dataReceived += port.ReadExisting();
-                        if (dataReceived.Contains(WaitFor))
-                        {
-                            Form1.WriteDebugLog((String.Format("port:{0} received: {1} PASS!", port.PortName, WaitFor)));
-                            return true;
-                        }
-                        else
-                        {
-                            timeout--;
-                        }
-                    }
-                    return false;
-                }
-                catch (Exception ex)
-                {
-                    Form1.WriteDebugLog(ex.ToString());
-                    return false;
-                }
-            }
-        }
-        protected bool SentCloseFixtureCommand()
-        {
-            string command = Config.getKeyValue("end_command");
-            string waitfot = Config.getKeyValue("wait_end_command_respond");
-            int waitaftersuccess = int.Parse(Config.getKeyValue("wait_fixture_out"));
-            int timeout = int.Parse(Config.getKeyValue("command_timeout")) / 1000;
-            if (!SentAndWaitCommand(command, waitfot, timeout))
-                return false;
-            else
-                sleep(waitaftersuccess);
-            return true;
-
-        }
-
-        protected bool SentStartCommand()
-        {
-            string commad = Config.getKeyValue("start_test_command");
-            string waitfor = Config.getKeyValue("wait_start_command_respond");
-            int waitaftersuccess = int.Parse(Config.getKeyValue("wait_close_fixture"));
-            int timeout = int.Parse(Config.getKeyValue("command_timeout")) / 1000;
-            if (!SentAndWaitCommand(commad, waitfor, timeout))
-                return false;
-            else
-                sleep(waitaftersuccess);
-            return true;
-        }
-        protected bool SentUsbCommand()
-        {
-            string commad = Config.getKeyValue("usb_power_command");
-            string waitfor = Config.getKeyValue("wait_end_command_respond");
-            int waitaftersuccess = int.Parse(Config.getKeyValue("wait_open_usb"));
-            int timeout = int.Parse(Config.getKeyValue("command_timeout")) / 1000;
-            if (!SentAndWaitCommand(commad, waitfor, timeout))
-                return false;
-            else
-                sleep(waitaftersuccess);
-            return true;
-        }
-
-
         public RunningState GetCurrentTestState { get { return current_state; } }
         public abstract void UpdateForm();
         public abstract void UpdateState();
@@ -276,21 +202,13 @@ namespace LoopTest
                 sleep(2000);
             }
 
-            if (!SentCloseFixtureCommand())
+            RunCommandHelper runCommandHelper = new RunCommandHelper();
+            if(!runCommandHelper.RunListCommand())
             {
-                MessageBox.Show("Fail when sent command to fixture!");
-                Run();
+                MessageBox.Show("Sent command to fixture fail!");
+                throw new Exception();
             }
-            else if (!SentStartCommand())
-            {
-                MessageBox.Show("Fail when sent command to fixture!");
-                Run();
-            }
-            else if (!SentUsbCommand())
-            {
-                MessageBox.Show("Fail when sent command to fixture!");
-                Run();
-            }
+            
             Form1.WriteDebugLog("Open test program");
             string test_program_path = Config.getKeyValue("test_program_path");
             Process.Start(System.IO.Directory.GetCurrentDirectory() + "\\cmd.bat");
@@ -384,7 +302,8 @@ namespace LoopTest
 
         public override void Run()
         {
-            SentCloseFixtureCommand();
+            RunCommandHelper runCommandHelper = new RunCommandHelper("EndTest");
+            runCommandHelper.RunListCommand();
         }
 
         public override void UpdateForm()
@@ -419,5 +338,139 @@ namespace LoopTest
             return key_value;
         }
 
+    }
+
+    public class RunCommandHelper
+    {
+        List<string> listCommands = new List<string>();
+        //<command=command,waitfor,timeout
+           
+        public RunCommandHelper()
+        {
+            //<station=command1,command2,...>
+            string station = GetStaion();
+            string station_list_command_value= Config.getKeyValue(station);
+            if(string.IsNullOrEmpty(station_list_command_value) )
+            {
+                MessageBox.Show("Can't find " + station + " command list");
+                throw new Exception();
+            }
+            string[] commands = station_list_command_value.Split(',');
+            if(commands.Length == 1)
+            {
+                MessageBox.Show("Config file value not valid!");
+                throw new NotSupportedException();
+            }
+            else
+            {
+                listCommands.AddRange(commands);
+            }
+        }
+
+        public RunCommandHelper(string station)
+        {
+            //<station=command1,command2,...>
+            string station_list_command_value = Config.getKeyValue(station);
+            if (string.IsNullOrEmpty(station_list_command_value))
+            {
+                MessageBox.Show("Can't find " + station + " command list");
+                throw new Exception();
+            }
+            string[] commands = station_list_command_value.Split(',');
+            if (commands.Length == 1)
+            {
+                MessageBox.Show("Config file value not valid!");
+                throw new NotSupportedException();
+            }
+            else
+            {
+                listCommands.AddRange(commands);
+            }
+        }
+        private string GetStaion()
+        {
+            string dir = System.IO.Directory.GetCurrentDirectory() + "\\Config\\Config.ini";
+            try
+            {
+                string testProgramConfig= System.IO.File.ReadAllText(dir);
+                string partern = @"(STATIONNAME.*?=)(?<station>.*?)\s";
+                var match=Regex.Match(testProgramConfig, partern);
+                return match.Groups["station"].Value;
+            }
+            catch
+            {
+                MessageBox.Show("Path not found: " + dir);
+                throw new Exception();
+            }
+        }
+
+        public bool RunListCommand()
+        {
+            foreach (string cmd in listCommands)
+            {
+                string[] parameters = Config.getKeyValue(cmd).Split(',');
+                if (parameters.Length == 4)
+                {
+                    int timeout = 10000;
+                    int wait_after_finish = 10000;
+                    try
+                    {
+                        timeout = int.Parse(parameters[2].Trim());
+                        wait_after_finish = int.Parse(parameters[3].Trim());
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Command parameters-timeout not correct!");
+                        throw new NotSupportedException();
+                    }
+
+                    if (!SentAndWaitCommand(parameters[0], parameters[1], timeout, wait_after_finish))
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Command parameters not correct!");
+                    throw new NotSupportedException();
+                }
+            }
+            return true;
+        }
+        protected bool SentAndWaitCommand(string sentCommand, string WaitFor, int timeout,int wait_after_finish)
+        {
+            Form1.WriteDebugLog(string.Format("sentCommand: {0}, WaitFor: {1}, timeout: {2}, waitafter_finish", sentCommand, WaitFor, timeout,wait_after_finish));
+            using (SerialPort port = new SerialPort("COM1", 115200))
+            {
+                try
+                {
+                    string dataReceived = "";
+                    port.Open();
+                    port.WriteLine(sentCommand);
+                    Form1.WriteDebugLog(String.Format("port:{0} send: {1}", port.PortName, sentCommand));
+                    while (timeout > 0)
+                    {
+                        System.Threading.Thread.Sleep(1000);
+                        dataReceived += port.ReadExisting();
+                        if (dataReceived.Contains(WaitFor))
+                        {
+                            Form1.WriteDebugLog((String.Format("port:{0} received: {1} PASS!", port.PortName, WaitFor)));
+                            return true;
+                            System.Threading.Thread.Sleep(wait_after_finish);
+                        }
+                        else
+                        {
+                            timeout--;
+                        }
+                    }
+                    return false;
+                }
+                catch (Exception ex)
+                {
+                    Form1.WriteDebugLog(ex.ToString());
+                    return false;
+                }
+            }
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace LoopTest
     public partial class Form1
     {
         //##########################################
-        static Form1 currentForm;
+        public static Form1 currentForm;
         static looptest_info looptest_info;
         static DebugForm debugForm;
 

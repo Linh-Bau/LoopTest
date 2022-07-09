@@ -1,0 +1,455 @@
+2022-07-06 08:39:02-[DEBUG]-[SendDosCmd] - DOSCommand-->copy C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\\Config /y 
+2022-07-06 08:39:03-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-06 08:39:03-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-06 08:39:03-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-06 08:39:03-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-06 08:39:03-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-06 08:39:15-[WARN]-[TestThread] - Thread was being aborted. 
+2022-07-06 09:34:58-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-06 09:34:58-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-06 09:34:58-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-06 09:34:58-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-06 09:34:58-[DEBUG]-[MainForm_Shown] - upload test-case form D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Config\LoopTest.json. 
+2022-07-06 09:35:01-[DEBUG]-[SetTestStatus] - Start test...SN:GGC21D0422540043,Station:MBLT-8020,DUTMode:Hornbill,TestMode:debug,Isdebug:False,FCT:0,onlineLimit:False,SoftVersion:1.6.28.1 
+2022-07-06 09:35:01-[DEBUG]-[TestThread] - ---------Start testSuite:PING_DUT---------- 
+2022-07-06 09:35:01-[DEBUG]-[TestThread] - Start:DUT_PING,Keyword:PingDUT,Retry 2,Timeout 15s,SubStr:-,MesVer:,FTC: 
+2022-07-06 09:35:03-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:06-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:09-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:10-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:35:11-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:35:12-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:15-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:18-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:21-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:22-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:35:23-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:35:24-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:27-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:30-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:33-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:34-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:35:35-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:35:36-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:39-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:42-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:45-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:45-[DEBUG]-[PingIP] - ping 192.168.1.101 ：Fail！！！！！ 
+2022-07-06 09:35:48-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:51-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:54-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:35:55-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:35:56-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:35:57-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:00-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:03-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:06-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:07-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:36:08-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:36:09-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:12-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:15-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:18-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:19-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:36:20-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:36:21-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:24-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:27-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:30-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:30-[DEBUG]-[PingIP] - ping 192.168.1.101 ：Fail！！！！！ 
+2022-07-06 09:36:33-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:36-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:39-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:40-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:36:41-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:36:42-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:45-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:48-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:51-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:52-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:36:53-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:36:54-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:36:57-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:37:00-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:37:03-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:37:04-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:37:05-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:37:06-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:37:09-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:37:12-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:37:15-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:37:15-[DEBUG]-[PingIP] - ping 192.168.1.101 ：Fail！！！！！ 
+2022-07-06 09:37:16-[DEBUG]-[StepTest] - ErrorList.length 1. 
+2022-07-06 09:37:16-[DEBUG]-[StepTest] - ErrorList = 1.4.1: Equipment.DUT.Ping 
+2022-07-06 09:37:16-[ERROR]-[StepTest] - DUT_PING FAIL!! ElapsedTime:135.0,1.4.1:Equipment.DUT.Ping,Spec:,Min:,Value:,Max: 
+2022-07-06 09:37:16-[DEBUG]-[JsonAndCsv] - DUT_PING add test item to station 
+2022-07-06 09:37:17-[DEBUG]-[JsonSerializer] - {
+  "serial": "GGC21D0422540043",
+  "station_name": "MBLT-8020",
+  "station_type": "LoopTest",
+  "position": "A1",
+  "start_time": "2022-07-06 09:35:01",
+  "finish_time": "2022-07-06 09:37:17",
+  "status": "failed",
+  "mode": "debug",
+  "error_code": "1.4.1",
+  "error_details": "Equipment.DUT.Ping",
+  "test_software_version": "1.6.28.1",
+  "tests": [
+    {
+      "test_name": "DUT_PING",
+      "test_value": "False",
+      "units": null,
+      "status": "failed",
+      "error_code": "1.4.1",
+      "start_time": "2022-07-06 09:34:57",
+      "finish_time": "2022-07-06 09:37:16",
+      "lower_limit": "",
+      "upper_limit": ""
+    }
+  ]
+} 
+2022-07-06 09:37:17-[DEBUG]-[SaveRichText] - Save test log OK.D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Data\GGC21D0422540043_2022-07-06_09-37-17.txt 
+2022-07-06 09:37:18-[DEBUG]-[RunDosCmd] - DOSCommand-->python D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Config\data_api_client.py -s LoopTest -f D:\TestLog\20220706\debug\Json\GGC21D0422540043_093717.json -l D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Data\GGC21D0422540043_2022-07-06_09-37-17.txt 
+2022-07-06 09:37:18-[DEBUG]-[RunDosCmd] - Process completed 
+2022-07-06 09:37:18-[DEBUG]-[RunDosCmd] - RunDOSCmd output--> 
+2022-07-06 09:37:18-[ERROR]-[UploadJson] - Json-info upload to client fail:Traceback (most recent call last):
+  File "D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Config\data_api_client.py", line 11, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+ 
+2022-07-06 09:37:18-[DEBUG]-[UploadJsonToClient] - UploadJsonToClient FAIL!! ElapsedTime:1. 
+2022-07-06 09:37:18-[DEBUG]-[JsonSerializer] - {
+  "serial": "GGC21D0422540043",
+  "start_time": "2022-07-06 09:35:01",
+  "finish_time": "2022-07-06 09:37:17",
+  "status": "FAIL",
+  "mode": "debug",
+  "error_code": "1.4.1",
+  "error_details": "Equipment.DUT.Ping",
+  "test_station": "MBLT-8020",
+  "FIRST_FAIL": "PING_DUT",
+  "test_software_version": "1.6.28.1",
+  "JSON_UPLOAD": "FALSE",
+  "JSON_UPLOAD_Time": "1"
+} 
+2022-07-06 09:37:18-[DEBUG]-[PostAsyncJsonToMes] - mesUrl:http://10.90.108.172:8088/api/2/serial/GGC21D0422540043/station/MBLT-8020/info 
+2022-07-06 09:37:18-[DEBUG]-[PostAsyncJsonToMes] - TESTMODE=debug or IsDebug=False,don't upload result to MES 
+2022-07-06 09:37:18-[DEBUG]-[DataGridViewToCSV] - Export test result to D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Output\result.csv succeed 
+2022-07-06 09:37:18-[DEBUG]-[CollectResultToCsv] - Export test results to D:\TestLog\CsvData\2022-07-06_MBLT-8020.csv succeed 
+2022-07-06 09:37:18-[DEBUG]-[SetTestStatus] - Test end,ElapsedTime:135s. 
+2022-07-06 09:37:19-[INFO]-[SetTestStatus] - 最终文件路径:D:\TestLog\20220706\debug\1\FAIL_GGC21D0422540043_Equipment.DUT.Ping_09-37-19.txt 
+2022-07-06 09:37:19-[DEBUG]-[SaveRichText] - Save test log OK.D:\TestLog\20220706\debug\1\FAIL_GGC21D0422540043_Equipment.DUT.Ping_09-37-19.txt 
+2022-07-06 09:38:42-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-06 09:38:42-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-06 09:38:42-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-06 09:38:42-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-06 09:38:42-[DEBUG]-[MainForm_Shown] - upload test-case form D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Config\LoopTest.json. 
+2022-07-06 09:38:45-[DEBUG]-[SetTestStatus] - Start test...SN:GGC21D0422540043,Station:MBLT-8020,DUTMode:Hornbill,TestMode:debug,Isdebug:False,FCT:0,onlineLimit:False,SoftVersion:1.6.28.1 
+2022-07-06 09:38:45-[DEBUG]-[TestThread] - ---------Start testSuite:PING_DUT---------- 
+2022-07-06 09:38:45-[DEBUG]-[TestThread] - Start:DUT_PING,Keyword:PingDUT,Retry 2,Timeout 15s,SubStr:-,MesVer:,FTC: 
+2022-07-06 09:38:47-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:38:50-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:38:53-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:38:54-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:38:54-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:38:56-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:38:59-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:02-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:05-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:06-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:39:06-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:39:08-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:11-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:14-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:17-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:18-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:39:18-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:39:20-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:23-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:26-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:29-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:29-[DEBUG]-[PingIP] - ping 192.168.1.101 ：Fail！！！！！ 
+2022-07-06 09:39:32-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:35-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:38-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:39-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:39:39-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:39:41-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:44-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:47-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:50-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:51-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:39:51-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:39:53-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:56-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:39:59-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:02-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:03-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:40:03-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:40:05-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:08-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:11-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:14-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:14-[DEBUG]-[PingIP] - ping 192.168.1.101 ：Fail！！！！！ 
+2022-07-06 09:40:17-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:20-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:23-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:24-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:40:24-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:40:26-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:29-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:32-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:35-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:36-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:40:36-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:40:38-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:41-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:44-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:47-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:48-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:40:48-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:40:50-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:53-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:56-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:59-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:40:59-[DEBUG]-[PingIP] - ping 192.168.1.101 ：Fail！！！！！ 
+2022-07-06 09:41:00-[DEBUG]-[StepTest] - ErrorList.length 1. 
+2022-07-06 09:41:00-[DEBUG]-[StepTest] - ErrorList = 1.4.1: Equipment.DUT.Ping 
+2022-07-06 09:41:00-[ERROR]-[StepTest] - DUT_PING FAIL!! ElapsedTime:134.6,1.4.1:Equipment.DUT.Ping,Spec:,Min:,Value:,Max: 
+2022-07-06 09:41:00-[DEBUG]-[JsonAndCsv] - DUT_PING add test item to station 
+2022-07-06 09:41:00-[DEBUG]-[JsonSerializer] - {
+  "serial": "GGC21D0422540043",
+  "station_name": "MBLT-8020",
+  "station_type": "LoopTest",
+  "position": "A1",
+  "start_time": "2022-07-06 09:38:45",
+  "finish_time": "2022-07-06 09:41:00",
+  "status": "failed",
+  "mode": "debug",
+  "error_code": "1.4.1",
+  "error_details": "Equipment.DUT.Ping",
+  "test_software_version": "1.6.28.1",
+  "tests": [
+    {
+      "test_name": "DUT_PING",
+      "test_value": "False",
+      "units": null,
+      "status": "failed",
+      "error_code": "1.4.1",
+      "start_time": "2022-07-06 09:38:42",
+      "finish_time": "2022-07-06 09:41:00",
+      "lower_limit": "",
+      "upper_limit": ""
+    }
+  ]
+} 
+2022-07-06 09:41:00-[DEBUG]-[SaveRichText] - Save test log OK.D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Data\GGC21D0422540043_2022-07-06_09-41-00.txt 
+2022-07-06 09:41:01-[DEBUG]-[RunDosCmd] - DOSCommand-->python D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Config\data_api_client.py -s LoopTest -f D:\TestLog\20220706\debug\Json\GGC21D0422540043_094100.json -l D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Data\GGC21D0422540043_2022-07-06_09-41-00.txt 
+2022-07-06 09:41:01-[DEBUG]-[RunDosCmd] - Process completed 
+2022-07-06 09:41:01-[DEBUG]-[RunDosCmd] - RunDOSCmd output--> 
+2022-07-06 09:41:01-[ERROR]-[UploadJson] - Json-info upload to client fail:Traceback (most recent call last):
+  File "D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Config\data_api_client.py", line 11, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+ 
+2022-07-06 09:41:01-[DEBUG]-[UploadJsonToClient] - UploadJsonToClient FAIL!! ElapsedTime:1. 
+2022-07-06 09:41:01-[DEBUG]-[JsonSerializer] - {
+  "serial": "GGC21D0422540043",
+  "start_time": "2022-07-06 09:38:45",
+  "finish_time": "2022-07-06 09:41:00",
+  "status": "FAIL",
+  "mode": "debug",
+  "error_code": "1.4.1",
+  "error_details": "Equipment.DUT.Ping",
+  "test_station": "MBLT-8020",
+  "FIRST_FAIL": "PING_DUT",
+  "test_software_version": "1.6.28.1",
+  "JSON_UPLOAD": "FALSE",
+  "JSON_UPLOAD_Time": "1"
+} 
+2022-07-06 09:41:01-[DEBUG]-[PostAsyncJsonToMes] - mesUrl:http://10.90.108.172:8088/api/2/serial/GGC21D0422540043/station/MBLT-8020/info 
+2022-07-06 09:41:01-[DEBUG]-[PostAsyncJsonToMes] - TESTMODE=debug or IsDebug=False,don't upload result to MES 
+2022-07-06 09:41:01-[DEBUG]-[DataGridViewToCSV] - Export test result to D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Output\result.csv succeed 
+2022-07-06 09:41:01-[DEBUG]-[CollectResultToCsv] - Export test results to D:\TestLog\CsvData\2022-07-06_MBLT-8020.csv succeed 
+2022-07-06 09:41:01-[DEBUG]-[SetTestStatus] - Test end,ElapsedTime:134s. 
+2022-07-06 09:41:01-[INFO]-[SetTestStatus] - 最终文件路径:D:\TestLog\20220706\debug\1\FAIL_GGC21D0422540043_Equipment.DUT.Ping_09-41-01.txt 
+2022-07-06 09:41:01-[DEBUG]-[SaveRichText] - Save test log OK.D:\TestLog\20220706\debug\1\FAIL_GGC21D0422540043_Equipment.DUT.Ping_09-41-01.txt 
+2022-07-06 09:41:13-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-06 09:41:13-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-06 09:41:13-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-06 09:41:13-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-06 09:41:13-[DEBUG]-[MainForm_Shown] - upload test-case form D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Config\LoopTest.json. 
+2022-07-06 09:41:17-[DEBUG]-[SetTestStatus] - Start test...SN:GGC21D0422540043,Station:MBLT-8020,DUTMode:Hornbill,TestMode:debug,Isdebug:False,FCT:0,onlineLimit:False,SoftVersion:1.6.28.1 
+2022-07-06 09:41:17-[DEBUG]-[TestThread] - ---------Start testSuite:PING_DUT---------- 
+2022-07-06 09:41:17-[DEBUG]-[TestThread] - Start:DUT_PING,Keyword:PingDUT,Retry 2,Timeout 15s,SubStr:-,MesVer:,FTC: 
+2022-07-06 09:41:18-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:41:21-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:41:24-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:41:25-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:41:26-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:41:27-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:41:30-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:41:33-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:41:36-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:41:37-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:41:38-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:41:39-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:41:42-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:41:45-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:41:48-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:41:49-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:41:50-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:41:51-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:41:54-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:41:57-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:00-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:00-[DEBUG]-[PingIP] - ping 192.168.1.101 ：Fail！！！！！ 
+2022-07-06 09:42:03-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:06-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:09-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:10-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:42:11-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:42:12-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:15-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:18-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:21-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:22-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:42:23-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:42:24-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:27-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:30-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:33-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:34-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:42:35-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:42:36-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:39-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:42-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:45-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:45-[DEBUG]-[PingIP] - ping 192.168.1.101 ：Fail！！！！！ 
+2022-07-06 09:42:48-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:51-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:54-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:42:55-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:42:56-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:42:57-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:43:00-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:43:03-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:43:06-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:43:07-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:43:08-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:43:09-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:43:12-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:43:15-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:43:18-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:43:19-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-06 09:43:20-[DEBUG]-[RunDosCmd] -  
+2022-07-06 09:43:21-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:43:24-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:43:27-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:43:30-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 09:43:30-[DEBUG]-[PingIP] - ping 192.168.1.101 ：Fail！！！！！ 
+2022-07-06 09:43:31-[DEBUG]-[StepTest] - ErrorList.length 1. 
+2022-07-06 09:43:31-[DEBUG]-[StepTest] - ErrorList = 1.4.1: Equipment.DUT.Ping 
+2022-07-06 09:43:31-[ERROR]-[StepTest] - DUT_PING FAIL!! ElapsedTime:134.7,1.4.1:Equipment.DUT.Ping,Spec:,Min:,Value:,Max: 
+2022-07-06 09:43:31-[DEBUG]-[JsonAndCsv] - DUT_PING add test item to station 
+2022-07-06 09:43:32-[DEBUG]-[JsonSerializer] - {
+  "serial": "GGC21D0422540043",
+  "station_name": "MBLT-8020",
+  "station_type": "LoopTest",
+  "position": "A1",
+  "start_time": "2022-07-06 09:41:17",
+  "finish_time": "2022-07-06 09:43:32",
+  "status": "failed",
+  "mode": "debug",
+  "error_code": "1.4.1",
+  "error_details": "Equipment.DUT.Ping",
+  "test_software_version": "1.6.28.1",
+  "tests": [
+    {
+      "test_name": "DUT_PING",
+      "test_value": "False",
+      "units": null,
+      "status": "failed",
+      "error_code": "1.4.1",
+      "start_time": "2022-07-06 09:41:13",
+      "finish_time": "2022-07-06 09:43:31",
+      "lower_limit": "",
+      "upper_limit": ""
+    }
+  ]
+} 
+2022-07-06 09:43:32-[DEBUG]-[SaveRichText] - Save test log OK.D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Data\GGC21D0422540043_2022-07-06_09-43-32.txt 
+2022-07-06 09:43:33-[DEBUG]-[RunDosCmd] - DOSCommand-->python D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Config\data_api_client.py -s LoopTest -f D:\TestLog\20220706\debug\Json\GGC21D0422540043_094332.json -l D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Data\GGC21D0422540043_2022-07-06_09-43-32.txt 
+2022-07-06 09:43:33-[DEBUG]-[RunDosCmd] - Process completed 
+2022-07-06 09:43:33-[DEBUG]-[RunDosCmd] - RunDOSCmd output--> 
+2022-07-06 09:43:33-[ERROR]-[UploadJson] - Json-info upload to client fail:Traceback (most recent call last):
+  File "D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Config\data_api_client.py", line 11, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+ 
+2022-07-06 09:43:33-[DEBUG]-[UploadJsonToClient] - UploadJsonToClient FAIL!! ElapsedTime:1. 
+2022-07-06 09:43:33-[DEBUG]-[JsonSerializer] - {
+  "serial": "GGC21D0422540043",
+  "start_time": "2022-07-06 09:41:17",
+  "finish_time": "2022-07-06 09:43:32",
+  "status": "FAIL",
+  "mode": "debug",
+  "error_code": "1.4.1",
+  "error_details": "Equipment.DUT.Ping",
+  "test_station": "MBLT-8020",
+  "FIRST_FAIL": "PING_DUT",
+  "test_software_version": "1.6.28.1",
+  "JSON_UPLOAD": "FALSE",
+  "JSON_UPLOAD_Time": "1"
+} 
+2022-07-06 09:43:33-[DEBUG]-[PostAsyncJsonToMes] - mesUrl:http://10.90.108.172:8088/api/2/serial/GGC21D0422540043/station/MBLT-8020/info 
+2022-07-06 09:43:33-[DEBUG]-[PostAsyncJsonToMes] - TESTMODE=debug or IsDebug=False,don't upload result to MES 
+2022-07-06 09:43:33-[DEBUG]-[DataGridViewToCSV] - Export test result to D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Output\result.csv succeed 
+2022-07-06 09:43:33-[DEBUG]-[CollectResultToCsv] - Export test results to D:\TestLog\CsvData\2022-07-06_MBLT-8020.csv succeed 
+2022-07-06 09:43:33-[DEBUG]-[SetTestStatus] - Test end,ElapsedTime:134s. 
+2022-07-06 09:43:33-[INFO]-[SetTestStatus] - 最终文件路径:D:\TestLog\20220706\debug\1\FAIL_GGC21D0422540043_Equipment.DUT.Ping_09-43-33.txt 
+2022-07-06 09:43:33-[DEBUG]-[SaveRichText] - Save test log OK.D:\TestLog\20220706\debug\1\FAIL_GGC21D0422540043_Equipment.DUT.Ping_09-43-33.txt 
+2022-07-06 10:06:23-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-06 10:06:23-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-06 10:06:23-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-06 10:06:23-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-06 10:06:23-[DEBUG]-[MainForm_Shown] - upload test-case form D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Config\LoopTest.json. 
+2022-07-06 10:06:27-[DEBUG]-[SetTestStatus] - Start test...SN:GGC21D0422540043,Station:MBLT-8020,DUTMode:Hornbill,TestMode:debug,Isdebug:False,FCT:0,onlineLimit:False,SoftVersion:1.6.28.1 
+2022-07-06 10:06:27-[DEBUG]-[TestThread] - ---------Start testSuite:PING_DUT---------- 
+2022-07-06 10:06:27-[DEBUG]-[TestThread] - Start:DUT_PING,Keyword:PingDUT,Retry 2,Timeout 15s,SubStr:-,MesVer:,FTC: 
+2022-07-06 10:06:28-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 10:06:31-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-06 10:06:32-[WARN]-[StepTest] - Thread was being aborted. 
+2022-07-06 10:06:32-[WARN]-[TestThread] - Thread was being aborted. 
+2022-07-06 10:06:53-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-06 10:06:53-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-06 10:06:53-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-06 10:06:53-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-06 10:06:53-[DEBUG]-[MainForm_Shown] - upload test-case form D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Config\LoopTest.json. 
+2022-07-06 10:07:42-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-06 10:07:42-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-06 10:07:42-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-06 10:07:42-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-06 10:07:42-[DEBUG]-[MainForm_Shown] - upload test-case form D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Config\LoopTest.json. 
+2022-07-06 10:07:45-[DEBUG]-[SetTestStatus] - Start test...SN:GGC21D0422540043,Station:MBLT-8020,DUTMode:Hornbill,TestMode:debug,Isdebug:False,FCT:0,onlineLimit:False,SoftVersion:1.6.28.1 
+2022-07-06 10:07:45-[DEBUG]-[TestThread] - ---------Start testSuite:PING_DUT---------- 
+2022-07-06 10:07:45-[DEBUG]-[TestThread] - Start:DUT_PING,Keyword:PingDUT,Retry 2,Timeout 15s,SubStr:-,MesVer:,FTC: 
+2022-07-06 10:20:49-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-06 10:20:49-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-06 10:20:49-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-06 10:20:49-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-06 10:20:49-[DEBUG]-[MainForm_Shown] - upload test-case form D:\Brian\CODE\MyCode\LoopTest\LoopTest\bin\Debug\test\Config\LoopTest.json. 
+2022-07-06 10:20:52-[WARN]-[TestThread] - Thread was being aborted. 
+2022-07-06 01:48:34-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-06 01:48:34-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-06 01:48:34-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-06 01:48:34-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-06 01:48:34-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\git-save\LoopTest\LoopTest\bin\Debug\test\Config\LoopTest.json. 
+2022-07-06 01:48:42-[WARN]-[TestThread] - Thread was being aborted. 
+2022-07-06 01:49:26-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-06 01:49:26-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-06 01:49:26-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-06 01:49:26-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-06 01:49:27-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\git-save\LoopTest\LoopTest\bin\Debug\test\Config\LoopTest.json. 
+2022-07-06 01:49:29-[WARN]-[TestThread] - Thread was being aborted. 

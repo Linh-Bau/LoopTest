@@ -1,0 +1,365 @@
+2022-07-05 01:51:25-[DEBUG]-[SendDosCmd] - DOSCommand-->copy C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\MBLT.json C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\\Config /y 
+2022-07-05 01:54:18-[DEBUG]-[SendDosCmd] - DOSCommand-->copy C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\MBLT.json C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\\Config /y 
+2022-07-05 01:54:48-[DEBUG]-[SendDosCmd] - DOSCommand-->copy C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\SFT.json C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\\Config /y 
+2022-07-05 01:55:14-[DEBUG]-[SendDosCmd] - DOSCommand-->copy C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\RTT.json C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\\Config /y 
+2022-07-05 01:57:19-[INFO]-[CheckFolder] - Create Directory C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\OutPut succeed. 
+2022-07-05 01:57:19-[INFO]-[CheckFolder] - Create Directory C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Data succeed. 
+2022-07-05 01:57:19-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 01:57:19-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 01:57:19-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 01:57:19-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 01:58:00-[DEBUG]-[SendDosCmd] - DOSCommand-->copy C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\\Config /y 
+2022-07-05 01:58:00-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 01:58:00-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 01:58:00-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 01:58:00-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 01:58:00-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 02:25:08-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 02:25:08-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 02:25:08-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 02:25:08-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 02:25:08-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 02:25:11-[WARN]-[TestThread] - Thread was being aborted. 
+2022-07-05 02:25:49-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 02:25:49-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 02:25:49-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 02:25:49-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 02:25:50-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 02:25:53-[DEBUG]-[SetTestStatus] - Start test...SN:GGC21D0422540043,Station:MBLT-8020,DUTMode:Hornbill,TestMode:debug,Isdebug:False,FCT:0,onlineLimit:False,SoftVersion:1.6.28.1 
+2022-07-05 02:25:53-[DEBUG]-[TestThread] - ---------Start testSuite:PingDUT---------- 
+2022-07-05 02:25:53-[DEBUG]-[TestThread] - Start:FIXTURE_CLOSE,Keyword:FIXCOMSend,Retry 0,Timeout 20s,SubStr:-,MesVer:,FTC: 
+2022-07-05 02:25:53-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 02:25:53-[INFO]-[StepTest] - FIXTURE_CLOSE PASS!! ElapsedTime:0.0,:,Spec:,Min:,Value:,Max: 
+2022-07-05 02:25:53-[DEBUG]-[JsonAndCsv] - FIXTURE_CLOSE add test item to station 
+2022-07-05 02:25:53-[DEBUG]-[TestThread] - Start:AT+VBUSOPEN%,Keyword:FIXCOMSend,Retry 0,Timeout 5s,SubStr:-,MesVer:,FTC: 
+2022-07-05 02:25:53-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 02:25:53-[INFO]-[StepTest] - AT+VBUSOPEN% PASS!! ElapsedTime:0.0,:,Spec:,Min:,Value:,Max: 
+2022-07-05 02:25:53-[DEBUG]-[TestThread] - Start:DUT_PING,Keyword:PingDUT,Retry 2,Timeout 15s,SubStr:-,MesVer:,FTC: 
+2022-07-05 02:25:55-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:25:58-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:26:01-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:26:02-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 02:26:02-[DEBUG]-[RunDosCmd] -  
+2022-07-05 02:26:04-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:26:07-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:26:10-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:26:13-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:26:14-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 02:26:14-[DEBUG]-[RunDosCmd] -  
+2022-07-05 02:26:16-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:26:19-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:26:22-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:32:48-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 02:32:48-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 02:32:48-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 02:32:48-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 02:32:48-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 02:32:52-[WARN]-[TestThread] - Thread was being aborted. 
+2022-07-05 02:33:38-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 02:33:38-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 02:33:38-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 02:33:38-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 02:33:38-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 02:33:49-[WARN]-[TestThread] - Thread was being aborted. 
+2022-07-05 02:34:20-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 02:34:20-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 02:34:20-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 02:34:20-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 02:34:20-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 02:35:33-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 02:35:33-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 02:35:33-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 02:35:33-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 02:35:33-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 02:35:37-[DEBUG]-[SetTestStatus] - Start test...SN:GGC21D0422540043,Station:MBLT-8020,DUTMode:Hornbill,TestMode:debug,Isdebug:False,FCT:0,onlineLimit:False,SoftVersion:1.6.28.1 
+2022-07-05 02:35:37-[DEBUG]-[TestThread] - ---------Start testSuite:PingDUT---------- 
+2022-07-05 02:35:37-[DEBUG]-[TestThread] - Start:FIXTURE_CLOSE,Keyword:FIXCOMSend,Retry 0,Timeout 20s,SubStr:-,MesVer:,FTC: 
+2022-07-05 02:35:37-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 02:35:37-[INFO]-[StepTest] - FIXTURE_CLOSE PASS!! ElapsedTime:0.0,:,Spec:,Min:,Value:,Max: 
+2022-07-05 02:35:37-[DEBUG]-[JsonAndCsv] - FIXTURE_CLOSE add test item to station 
+2022-07-05 02:35:37-[DEBUG]-[TestThread] - Start:AT+VBUSOPEN%,Keyword:FIXCOMSend,Retry 0,Timeout 5s,SubStr:-,MesVer:,FTC: 
+2022-07-05 02:35:37-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 02:35:37-[INFO]-[StepTest] - AT+VBUSOPEN% PASS!! ElapsedTime:0.0,:,Spec:,Min:,Value:,Max: 
+2022-07-05 02:35:37-[DEBUG]-[TestThread] - Start:DUT_PING,Keyword:PingDUT,Retry 2,Timeout 15s,SubStr:-,MesVer:,FTC: 
+2022-07-05 02:35:39-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:35:42-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:35:45-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:35:46-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 02:35:46-[DEBUG]-[RunDosCmd] -  
+2022-07-05 02:35:48-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:35:51-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:35:54-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:35:57-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:35:58-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 02:35:58-[DEBUG]-[RunDosCmd] -  
+2022-07-05 02:36:00-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:36:03-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:36:57-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 02:36:57-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 02:36:57-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 02:36:57-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 02:36:57-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 02:37:01-[DEBUG]-[SetTestStatus] - Start test...SN:GGC21D0422540043,Station:MBLT-8020,DUTMode:Hornbill,TestMode:debug,Isdebug:False,FCT:0,onlineLimit:False,SoftVersion:1.6.28.1 
+2022-07-05 02:37:01-[DEBUG]-[TestThread] - ---------Start testSuite:PingDUT---------- 
+2022-07-05 02:37:01-[DEBUG]-[TestThread] - Start:FIXTURE_CLOSE,Keyword:FIXCOMSend,Retry 0,Timeout 20s,SubStr:-,MesVer:,FTC: 
+2022-07-05 02:37:01-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 02:37:01-[INFO]-[StepTest] - FIXTURE_CLOSE PASS!! ElapsedTime:0.1,:,Spec:,Min:,Value:,Max: 
+2022-07-05 02:37:01-[DEBUG]-[JsonAndCsv] - FIXTURE_CLOSE add test item to station 
+2022-07-05 02:37:01-[DEBUG]-[TestThread] - Start:AT+VBUSOPEN%,Keyword:FIXCOMSend,Retry 0,Timeout 5s,SubStr:-,MesVer:,FTC: 
+2022-07-05 02:37:01-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 02:37:01-[INFO]-[StepTest] - AT+VBUSOPEN% PASS!! ElapsedTime:0.0,:,Spec:,Min:,Value:,Max: 
+2022-07-05 02:37:01-[DEBUG]-[TestThread] - Start:DUT_PING,Keyword:PingDUT,Retry 2,Timeout 15s,SubStr:-,MesVer:,FTC: 
+2022-07-05 02:37:03-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:37:06-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:46:57-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 02:46:57-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 02:46:57-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 02:46:57-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 02:46:57-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 02:47:00-[DEBUG]-[SetTestStatus] - Start test...SN:GGC21D0422750121,Station:MBLT-8020,DUTMode:Hornbill,TestMode:debug,Isdebug:False,FCT:0,onlineLimit:False,SoftVersion:1.6.28.1 
+2022-07-05 02:47:00-[DEBUG]-[TestThread] - ---------Start testSuite:PingDUT---------- 
+2022-07-05 02:47:00-[DEBUG]-[TestThread] - Start:FIXTURE_CLOSE,Keyword:FIXCOMSend,Retry 0,Timeout 20s,SubStr:-,MesVer:,FTC: 
+2022-07-05 02:47:01-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 02:47:01-[INFO]-[StepTest] - FIXTURE_CLOSE PASS!! ElapsedTime:0.0,:,Spec:,Min:,Value:,Max: 
+2022-07-05 02:47:01-[DEBUG]-[JsonAndCsv] - FIXTURE_CLOSE add test item to station 
+2022-07-05 02:47:01-[DEBUG]-[TestThread] - Start:AT+VBUSOPEN%,Keyword:FIXCOMSend,Retry 0,Timeout 5s,SubStr:-,MesVer:,FTC: 
+2022-07-05 02:47:01-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 02:47:01-[INFO]-[StepTest] - AT+VBUSOPEN% PASS!! ElapsedTime:0.0,:,Spec:,Min:,Value:,Max: 
+2022-07-05 02:47:01-[DEBUG]-[TestThread] - Start:DUT_PING,Keyword:PingDUT,Retry 2,Timeout 15s,SubStr:-,MesVer:,FTC: 
+2022-07-05 02:47:02-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:47:05-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 02:54:35-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 02:54:35-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 02:54:35-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 02:54:35-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 02:54:35-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 02:54:54-[WARN]-[TestThread] - Thread was being aborted. 
+2022-07-05 02:58:58-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 02:58:58-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 02:58:58-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 02:58:58-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 02:58:58-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 03:05:19-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 03:05:19-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 03:05:19-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 03:05:19-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 03:05:20-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 03:05:43-[WARN]-[TestThread] - Thread was being aborted. 
+2022-07-05 03:45:32-[DEBUG]-[SendDosCmd] - DOSCommand-->copy C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\\Config /y 
+2022-07-05 03:45:32-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 03:45:32-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 03:45:32-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 03:45:32-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 03:45:32-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 03:46:11-[DEBUG]-[SetTestStatus] - Start test...SN:GGC21D0422540043,Station:MBLT-8020,DUTMode:Hornbill,TestMode:debug,Isdebug:False,FCT:0,onlineLimit:False,SoftVersion:1.6.28.1 
+2022-07-05 03:46:11-[DEBUG]-[TestThread] - ---------Start testSuite:PingDUT---------- 
+2022-07-05 03:46:11-[DEBUG]-[TestThread] - Start:FIXTURE_CLOSE,Keyword:FIXCOMSend,Retry 0,Timeout 20s,SubStr:-,MesVer:,FTC: 
+2022-07-05 03:46:11-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 03:46:11-[INFO]-[StepTest] - FIXTURE_CLOSE PASS!! ElapsedTime:0.0,:,Spec:,Min:,Value:,Max: 
+2022-07-05 03:46:11-[DEBUG]-[JsonAndCsv] - FIXTURE_CLOSE add test item to station 
+2022-07-05 03:46:11-[DEBUG]-[TestThread] - Start:AT+VBUSOPEN%,Keyword:FIXCOMSend,Retry 0,Timeout 5s,SubStr:-,MesVer:,FTC: 
+2022-07-05 03:46:11-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 03:46:11-[INFO]-[StepTest] - AT+VBUSOPEN% PASS!! ElapsedTime:0.0,:,Spec:,Min:,Value:,Max: 
+2022-07-05 03:46:11-[DEBUG]-[TestThread] - Start:DUT_PING,Keyword:PingDUT,Retry 2,Timeout 15s,SubStr:-,MesVer:,FTC: 
+2022-07-05 03:46:13-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:46:16-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:46:32-[DEBUG]-[SendDosCmd] - DOSCommand-->copy C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\\Config /y 
+2022-07-05 03:52:38-[DEBUG]-[SendDosCmd] - DOSCommand-->copy C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\\Config /y 
+2022-07-05 03:52:38-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 03:52:38-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 03:52:38-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 03:52:38-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 03:52:38-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 03:53:01-[DEBUG]-[SetTestStatus] - Start test...SN:GGC21D0422750215,Station:MBLT-8020,DUTMode:Hornbill,TestMode:debug,Isdebug:False,FCT:0,onlineLimit:False,SoftVersion:1.6.28.1 
+2022-07-05 03:53:01-[DEBUG]-[TestThread] - ---------Start testSuite:PingDUT---------- 
+2022-07-05 03:53:01-[DEBUG]-[TestThread] - Start:FIXTURE_CLOSE,Keyword:FIXCOMSend,Retry 0,Timeout 20s,SubStr:-,MesVer:,FTC: 
+2022-07-05 03:53:01-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 03:53:01-[INFO]-[StepTest] - FIXTURE_CLOSE PASS!! ElapsedTime:0.0,:,Spec:,Min:,Value:,Max: 
+2022-07-05 03:53:01-[DEBUG]-[JsonAndCsv] - FIXTURE_CLOSE add test item to station 
+2022-07-05 03:53:01-[DEBUG]-[TestThread] - Start:AT+VBUSOPEN%,Keyword:FIXCOMSend,Retry 0,Timeout 5s,SubStr:-,MesVer:,FTC: 
+2022-07-05 03:53:01-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 03:53:01-[INFO]-[StepTest] - AT+VBUSOPEN% PASS!! ElapsedTime:0.0,:,Spec:,Min:,Value:,Max: 
+2022-07-05 03:53:01-[DEBUG]-[TestThread] - Start:DUT_PING,Keyword:PingDUT,Retry 2,Timeout 15s,SubStr:-,MesVer:,FTC: 
+2022-07-05 03:53:03-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:06-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:09-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:10-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 03:53:10-[DEBUG]-[RunDosCmd] -  
+2022-07-05 03:53:12-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:15-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:18-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:21-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:22-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 03:53:22-[DEBUG]-[RunDosCmd] -  
+2022-07-05 03:53:24-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:27-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:30-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:33-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:34-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 03:53:34-[DEBUG]-[RunDosCmd] -  
+2022-07-05 03:53:36-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:39-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:42-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:45-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:53:45-[DEBUG]-[PingIP] - ping 192.168.1.101 ：Fail！！！！！ 
+2022-07-05 03:53:52-[DEBUG]-[SendDosCmd] - DOSCommand-->copy C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\\Config /y 
+2022-07-05 03:53:52-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 03:53:52-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 03:53:52-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 03:53:52-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 03:53:52-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 03:54:17-[DEBUG]-[SetTestStatus] - Start test...SN:GGC21D0422750215,Station:MBLT-8020,DUTMode:Hornbill,TestMode:debug,Isdebug:False,FCT:0,onlineLimit:False,SoftVersion:1.6.28.1 
+2022-07-05 03:54:17-[DEBUG]-[TestThread] - ---------Start testSuite:PingDUT---------- 
+2022-07-05 03:54:17-[DEBUG]-[TestThread] - Start:FIXTURE_CLOSE,Keyword:FIXCOMSend,Retry 0,Timeout 20s,SubStr:-,MesVer:,FTC: 
+2022-07-05 03:54:17-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 03:54:17-[INFO]-[StepTest] - FIXTURE_CLOSE PASS!! ElapsedTime:0.0,:,Spec:,Min:,Value:,Max: 
+2022-07-05 03:54:17-[DEBUG]-[JsonAndCsv] - FIXTURE_CLOSE add test item to station 
+2022-07-05 03:54:17-[DEBUG]-[TestThread] - Start:AT+VBUSOPEN%,Keyword:FIXCOMSend,Retry 0,Timeout 5s,SubStr:-,MesVer:,FTC: 
+2022-07-05 03:54:17-[WARN]-[StepTest] - Attention! FIXTUREFLAG == 0,and no ConfirmMessageBox.  
+2022-07-05 03:54:17-[INFO]-[StepTest] - AT+VBUSOPEN% PASS!! ElapsedTime:0.0,:,Spec:,Min:,Value:,Max: 
+2022-07-05 03:54:17-[DEBUG]-[TestThread] - Start:DUT_PING,Keyword:PingDUT,Retry 2,Timeout 15s,SubStr:-,MesVer:,FTC: 
+2022-07-05 03:54:19-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:54:22-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:54:25-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:54:26-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 03:54:26-[DEBUG]-[RunDosCmd] -  
+2022-07-05 03:54:28-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:54:31-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:54:34-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:54:37-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:54:38-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 03:54:38-[DEBUG]-[RunDosCmd] -  
+2022-07-05 03:54:40-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:54:43-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:54:46-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:54:49-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:54:50-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 03:54:50-[DEBUG]-[RunDosCmd] -  
+2022-07-05 03:54:52-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:54:55-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:54:58-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:01-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:01-[DEBUG]-[PingIP] - ping 192.168.1.101 ：Fail！！！！！ 
+2022-07-05 03:55:04-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:07-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:10-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:11-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 03:55:11-[DEBUG]-[RunDosCmd] -  
+2022-07-05 03:55:13-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:16-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:19-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:22-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:23-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 03:55:23-[DEBUG]-[RunDosCmd] -  
+2022-07-05 03:55:25-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:28-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:31-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:34-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:35-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 03:55:35-[DEBUG]-[RunDosCmd] -  
+2022-07-05 03:55:37-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:40-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:43-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:46-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:46-[DEBUG]-[PingIP] - ping 192.168.1.101 ：Fail！！！！！ 
+2022-07-05 03:55:49-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:52-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:55-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:55:56-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 03:55:56-[DEBUG]-[RunDosCmd] -  
+2022-07-05 03:55:58-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:56:01-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:56:04-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:56:07-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:56:08-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 03:56:08-[DEBUG]-[RunDosCmd] -  
+2022-07-05 03:56:10-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:56:13-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:56:16-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:56:19-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:56:20-[DEBUG]-[RunDosCmd] - DosSendComd-->arp -d & exit 
+2022-07-05 03:56:20-[DEBUG]-[RunDosCmd] -  
+2022-07-05 03:56:22-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:56:25-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:56:28-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:56:31-[DEBUG]-[PingIP] - ping 192.168.1.101 ：TimedOut 
+2022-07-05 03:56:31-[DEBUG]-[PingIP] - ping 192.168.1.101 ：Fail！！！！！ 
+2022-07-05 03:56:32-[DEBUG]-[StepTest] - ErrorList.length 1. 
+2022-07-05 03:56:32-[DEBUG]-[StepTest] - ErrorList = 1.4.1: Equipment.DUT.Ping 
+2022-07-05 03:56:32-[ERROR]-[StepTest] - DUT_PING FAIL!! ElapsedTime:134.9,1.4.1:Equipment.DUT.Ping,Spec:,Min:,Value:,Max: 
+2022-07-05 03:56:32-[DEBUG]-[JsonAndCsv] - DUT_PING add test item to station 
+2022-07-05 03:56:32-[DEBUG]-[JsonSerializer] - {
+  "serial": "GGC21D0422750215",
+  "station_name": "MBLT-8020",
+  "station_type": "LoopTest",
+  "position": "A1",
+  "start_time": "2022-07-05 15:54:17",
+  "finish_time": "2022-07-05 15:56:32",
+  "status": "failed",
+  "mode": "debug",
+  "error_code": "1.4.1",
+  "error_details": "Equipment.DUT.Ping",
+  "test_software_version": "1.6.28.1",
+  "tests": [
+    {
+      "test_name": "FIXTURE_CLOSE",
+      "test_value": "True",
+      "units": null,
+      "status": "passed",
+      "error_code": "",
+      "start_time": "2022-07-05 15:54:17",
+      "finish_time": "2022-07-05 15:54:17",
+      "lower_limit": "",
+      "upper_limit": ""
+    },
+    {
+      "test_name": "DUT_PING",
+      "test_value": "False",
+      "units": null,
+      "status": "failed",
+      "error_code": "1.4.1",
+      "start_time": "2022-07-05 15:54:17",
+      "finish_time": "2022-07-05 15:56:32",
+      "lower_limit": "",
+      "upper_limit": ""
+    }
+  ]
+} 
+2022-07-05 03:56:32-[DEBUG]-[SaveRichText] - Save test log OK.C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Data\GGC21D0422750215_2022-07-05_15-56-32.txt 
+2022-07-05 03:56:33-[DEBUG]-[RunDosCmd] - DOSCommand-->python C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\data_api_client.py -s LoopTest -f D:\TestLog\20220705\debug\Json\GGC21D0422750215_155632.json -l C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Data\GGC21D0422750215_2022-07-05_15-56-32.txt 
+2022-07-05 03:56:33-[DEBUG]-[RunDosCmd] - Process completed 
+2022-07-05 03:56:33-[DEBUG]-[RunDosCmd] - RunDOSCmd output--> 
+2022-07-05 03:56:33-[ERROR]-[UploadJson] - Json-info upload to client fail:Traceback (most recent call last):
+  File "C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\data_api_client.py", line 11, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+ 
+2022-07-05 03:56:33-[DEBUG]-[UploadJsonToClient] - UploadJsonToClient FAIL!! ElapsedTime:1. 
+2022-07-05 03:56:33-[DEBUG]-[JsonSerializer] - {
+  "serial": "GGC21D0422750215",
+  "start_time": "2022-07-05 15:54:17",
+  "finish_time": "2022-07-05 15:56:32",
+  "status": "FAIL",
+  "mode": "debug",
+  "error_code": "1.4.1",
+  "error_details": "Equipment.DUT.Ping",
+  "test_station": "MBLT-8020",
+  "FIRST_FAIL": "PingDUT",
+  "test_software_version": "1.6.28.1",
+  "JSON_UPLOAD": "FALSE",
+  "JSON_UPLOAD_Time": "1"
+} 
+2022-07-05 03:56:33-[DEBUG]-[PostAsyncJsonToMes] - mesUrl:http://10.90.108.172:8088/api/2/serial/GGC21D0422750215/station/MBLT-8020/info 
+2022-07-05 03:56:33-[DEBUG]-[PostAsyncJsonToMes] - TESTMODE=debug or IsDebug=False,don't upload result to MES 
+2022-07-05 03:56:34-[DEBUG]-[DataGridViewToCSV] - Export test result to C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Output\result.csv succeed 
+2022-07-05 03:56:34-[DEBUG]-[CollectResultToCsv] - Export test results to D:\TestLog\CsvData\2022-07-05_MBLT-8020.csv succeed 
+2022-07-05 03:56:35-[DEBUG]-[SetTestStatus] - Test end,ElapsedTime:136s. 
+2022-07-05 03:56:35-[INFO]-[SetTestStatus] - 最终文件路径:D:\TestLog\20220705\debug\1\FAIL_GGC21D0422750215_Equipment.DUT.Ping_03-56-35.txt 
+2022-07-05 03:56:35-[DEBUG]-[SaveRichText] - Save test log OK.D:\TestLog\20220705\debug\1\FAIL_GGC21D0422750215_Equipment.DUT.Ping_03-56-35.txt 
+2022-07-05 04:01:14-[WARN]-[TestThread] - Thread was being aborted. 
+2022-07-05 04:27:35-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-05 04:27:35-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-05 04:27:35-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-05 04:27:35-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-05 04:27:35-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\GitHub\ICT_AutoTestSystem_VN\AutoTestSystem\bin\Debug\Config\LoopTest.json. 
+2022-07-05 04:27:47-[WARN]-[TestThread] - Thread was being aborted. 

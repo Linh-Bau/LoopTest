@@ -73,6 +73,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.BTN_STOP = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel20.SuspendLayout();
@@ -89,6 +90,7 @@
             this.panel13.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.pnl_Config.SuspendLayout();
             this.panel21.SuspendLayout();
@@ -375,6 +377,7 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.BTN_STOP);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel5.Location = new System.Drawing.Point(262, 0);
             this.panel5.Name = "panel5";
@@ -538,6 +541,20 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // BTN_STOP
+            // 
+            this.BTN_STOP.BackColor = System.Drawing.Color.LightGray;
+            this.BTN_STOP.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BTN_STOP.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_STOP.Location = new System.Drawing.Point(0, 0);
+            this.BTN_STOP.Name = "BTN_STOP";
+            this.BTN_STOP.Padding = new System.Windows.Forms.Padding(20, 10, 20, 10);
+            this.BTN_STOP.Size = new System.Drawing.Size(120, 64);
+            this.BTN_STOP.TabIndex = 1;
+            this.BTN_STOP.Text = "STOP";
+            this.BTN_STOP.UseVisualStyleBackColor = false;
+            this.BTN_STOP.Click += new System.EventHandler(this.BTN_STOP_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -569,6 +586,7 @@
             this.panel13.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.pnl_Config.ResumeLayout(false);
             this.panel21.ResumeLayout(false);
@@ -627,6 +645,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button BTN_STOP;
     }
 }
 

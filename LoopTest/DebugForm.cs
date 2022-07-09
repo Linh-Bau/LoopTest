@@ -19,19 +19,27 @@ namespace LoopTest
 
         public void WriteLog(string text)
         {
-            if(this.richTextBox1.InvokeRequired)
+            try
             {
-                richTextBox1.Invoke((Action)(() =>
+                if (this.richTextBox1.InvokeRequired)
+                {
+                    richTextBox1.Invoke((Action)(() =>
+                    {
+                        richTextBox1.AppendText(text);
+                        richTextBox1.AppendText(Environment.NewLine);
+                    }));
+                }
+                else
                 {
                     richTextBox1.AppendText(text);
-                    richTextBox1.AppendText(Environment.NewLine);   
-                }));
+                    richTextBox1.AppendText(Environment.NewLine);
+                }
             }
-            else
+            catch
             {
-                richTextBox1.AppendText(text);
-                richTextBox1.AppendText(Environment.NewLine);
+
             }
+         
         }
     }
 }

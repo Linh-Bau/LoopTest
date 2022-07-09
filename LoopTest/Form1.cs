@@ -29,7 +29,6 @@ namespace LoopTest
         {
             MessageBox.Show("please open by adminstrator access!");
             currentForm = this;
-            tester = new WaitStartButtonClick();
             LoopTestThread = new Thread(loopTestThread);
             LoopTestThread.Start();
             if(Config.getKeyValue("debug").ToUpper()=="TRUE")
@@ -67,7 +66,7 @@ namespace LoopTest
 
         private void loopTestThread()
         {
-
+            tester = new WaitStartButtonClick();
             while (true)
             {               
                 tester.Run();
@@ -133,6 +132,27 @@ namespace LoopTest
         private void label12_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void BTN_STOP_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                if(MessageBox.Show("Are you sure?","Warring",MessageBoxButtons.YesNo)==DialogResult.Yes)
+                {
+                    LoopTestThread.Abort();
+                    System.Threading.Thread.Sleep(3000);
+                }
+            }
+            catch
+            {
+
+            }
+            finally
+            {
+                LoopTestThread = new Thread(loopTestThread);
+                LoopTestThread.Start();
+            }
         }
     }
 }

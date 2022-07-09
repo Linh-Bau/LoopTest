@@ -1,0 +1,7 @@
+2022-07-07 05:20:28-[INFO]-[CheckFolder] - Create Directory D:\TestLog\20220707\debug\Json succeed. 
+2022-07-07 05:20:28-[DEBUG]-[MainForm_Shown] - initialize FixCOMinfo success! 
+2022-07-07 05:20:28-[DEBUG]-[MainForm_Shown] - initialize DUTCOMinfo success! 
+2022-07-07 05:20:28-[DEBUG]-[MainForm_Shown] - initialize TelnetInfo success! 
+2022-07-07 05:20:28-[DEBUG]-[MainForm_Shown] - initialize GPIBInfo success! 
+2022-07-07 05:20:28-[DEBUG]-[MainForm_Shown] - upload test-case form C:\Users\91053638\Documents\git-save\LoopTest\LoopTest\bin\Debug\test\Config\LoopTest.json. 
+2022-07-07 05:20:46-[WARN]-[TestThread] - Thread was being aborted. 
